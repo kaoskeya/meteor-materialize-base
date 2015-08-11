@@ -1,0 +1,22 @@
+<template name="MasterLayout">
+	<nav>
+		<div class="container">
+			<div class="nav-wrapper text-center">
+				<a href="/" class="brand-logo">Project Name</a>
+			</div>
+		</div>
+	</nav>
+
+	{{> yield}}
+	
+	<br /><br /><br />
+	<footer id="fixed">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 text-right">
+					<div class="copyright">© 2015 | Project Name<!-- Powered By <a href="http://www.lostinkaos.com" target="_BLANK">KAOS</a>! --></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</template>
