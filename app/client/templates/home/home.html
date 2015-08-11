@@ -1,5 +1,67 @@
 <template name="Home">
 
-Home
+	<div class="container">
+		<br />
+		<div class="row">
+			<div class="col s12">
+				<ul class="tabs">
+					<li class="tab col s3"><a class="active" href="#EXPECTED">Expected</a></li>
+					<li class="tab col s3"><a href="#INPROGRESS">In Progress</a></li>
+					<li class="tab col s3"><a href="#FINISHED">Finished</a></li>
+				</ul>
+			</div>
+			<div id="EXPECTED" class="col s12">
+				<table class="responsive-table hoverable white centered">
+					<thead>
+						<tr>
+							<th>Visitor</th>
+							<th>Employee</th>
+							<th>Purpose</th>
+							<th>Action</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- EXPECTED MEETINGS HERE -->
+					</tbody>
+				</table>
+			</div>
+			<div id="INPROGRESS" class="col s12">
+				<table class="responsive-table hoverable white centered">
+					<thead>
+						<tr>
+							<th>Visitor</th>
+							<th>Employee</th>
+							<th>Time In</th>
+							<th>Purpose</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- INPROGRESS MEETINGS HERE -->
+					</tbody>
+				</table>
+			</div>
+			<div id="FINISHED" class="col s12">
+				<table class="responsive-table hoverable white centered">
+					<thead>
+						<tr>
+							<th>Visitor</th>
+							<th>Employee</th>
+							<th>Time In</th>
+							<th>Time out</th>
+							<th>Purpose</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- FINISHED MEETINGS HERE -->
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div class="fixed-action-btn" style="bottom: 90px; right: 35px;">
+		<a class="btn-floating btn-large waves-effect waves-light orange"><i class="material-icons">add</i></a>
+	</div>
 
 </template>
